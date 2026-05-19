@@ -74,6 +74,6 @@ function clearAll()
     */
     document.querySelectorAll("div.creature").forEach(function(el){
         el.backgroundColor = "#FFF";
-        el.style.border = "#000";
+        el.style.border = "1px solid #000";
     });
 }//end clearAll()
