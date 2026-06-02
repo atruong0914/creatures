@@ -73,7 +73,7 @@ function clearAll()
         
     */
     document.querySelectorAll("div.creature").forEach(function(el){
-        el.backgroundColor = "#FFF";
+        el.style.backgroundColor = "#FFF";
         el.style.border = "1px solid #000";
     });
 }//end clearAll()
